@@ -8,8 +8,17 @@ import java.util.List;
 
 import com.desafio.model.Sale;
 
+/** 
+ * CsvReader class to read sales data from a CSV file. 
+ * This class contains a method to read the CSV file and return a list of Sale objects. 
+ */
 public class CsvReader {
-
+	
+	/** 
+	 * Reads a CSV file and returns a list of Sale objects. 
+	 * @param filePath CSV file path. 
+	 * @return List of Sale objects. 
+	 */
 	public List<Sale> readCsv(String filePath) {
 		List<Sale> sales = new ArrayList<>();
 		
